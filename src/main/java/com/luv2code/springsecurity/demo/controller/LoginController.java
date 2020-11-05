@@ -25,6 +25,11 @@ public class LoginController {
 		
 	}
 
+	@GetMapping("/directors")
+	public String showDirectors(){
+		return "directors";
+	}
+
 
 	
 }
