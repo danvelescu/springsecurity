@@ -21,5 +21,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MySQL - spring_security_demo_bcrypt@localhost" uuid="f9325694-2c82-452d-b756-095f71ed9b9b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3305/spring_security_demo_bcrypt</jdbc-url>
+    </data-source>
   </component>
 </project>
